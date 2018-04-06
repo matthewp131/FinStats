@@ -11,5 +11,8 @@ Download archive.zip at http://usfundamentals.com/archive.zip, rename it data, a
 	 main.py</code></pre>
 
 ### Running
-> python main.py
-> python main.py --query "MSFT,EPS"
+usage: <code>main.py [-h] [-q QUERY]</code>
+
+optional arguments:
+* <code>-h, --help</code> show this help message and exit
+* <code>-q QUERY, --query QUERY</code> Supply a query from command line to run this script without user input
